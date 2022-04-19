@@ -5,6 +5,7 @@ import SoftSkills from './SoftSkills/SoftSkills';
 import TechSkills from './TechSkills/TechSkills';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Languages from './Languages/Languages';
+import Projects from './Projects/Projects';
 import { Wrapper, AboutBox, ContactsBox } from './App.styled';
 
 export const App = () => {
@@ -12,6 +13,7 @@ export const App = () => {
     <Wrapper>
       <AboutBox>
         <AboutMe />
+        <Projects />
         <WorkExperience />
         <Education />
       </AboutBox>

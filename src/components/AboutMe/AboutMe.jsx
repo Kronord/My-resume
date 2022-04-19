@@ -1,3 +1,4 @@
+import image from '../../Images/AnyConv.com__IMG_2786.jpg';
 import {
   Wrapper,
   ImgBox,
@@ -15,7 +16,7 @@ export default function AboutMe() {
       <ImgBox>
         <StyleBox></StyleBox>
         <Image
-          src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=996&t=st=1649774176~exp=1649774776~hmac=81c85cba618dce76f8d7eb589c2e0aad090eedfdc2944331baa4af50d8f4b78b"
+          src={image}
           alt="man"
         />
       </ImgBox>
@@ -24,11 +25,12 @@ export default function AboutMe() {
       </Name>
       <Spec>Junior React developer</Spec>
       <Text>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dicta eum
-        nisi reprehenderit dolore placeat cupiditate, delectus impedit eos
-        repellat. Temporibus sunt, ipsum fuga eos exercitationem magni
-        distinctio nihil quae aliquid molestias sit aspernatur laborum nemo, est
-        asperiores nostrum labore!
+        I am a Junior React developer. In projects i used HTML, CSS, JS, React
+        and familiar with technologies such as Next.js, Webpack, Typescript. I
+        prefer to work with data and operations on it, but I also like to
+        visualize content and translate ideas into a working web application. I
+        am looking for an opportunity to realize myself as a React / JS
+        developer, and help companies automate and improve their business.
       </Text>
     </Wrapper>
   );

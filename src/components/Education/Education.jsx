@@ -1,4 +1,4 @@
-import { Wrapper, Title, StyleBox, InnerBox, Industry, StyleElement, Date, University } from './Education.styled';
+import { Wrapper, Title, StyleBox, InnerBox, Industry, StyleElement, Date, University, Text } from './Education.styled';
 
 export default function Education() {
   return (
@@ -17,9 +17,9 @@ export default function Education() {
           <University>
             KYIV NATIONAL UNIVERSITY OF TRADE AND ECONOMICS
           </University>
-          <p>
+          <Text>
             Bachelor &#124; Commodity Science and Organization of External Trade
-          </p>
+          </Text>
         </div>
       </Wrapper>
       <Wrapper>
@@ -33,7 +33,7 @@ export default function Education() {
             <StyleElement></StyleElement>
             2021 - 2022
           </Date>
-          <p>Full Stack Developer</p>
+          <Text>Full Stack Developer</Text>
         </div>
       </Wrapper>
     </>

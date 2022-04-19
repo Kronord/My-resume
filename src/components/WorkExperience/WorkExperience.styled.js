@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   margin-bottom: 50px;
 `;
 export const Title = styled.h2`
@@ -50,4 +50,6 @@ export const Position = styled.p`
 
 export const Text = styled.p`
   line-height: 30px;
+  letter-spacing: 2px;
+  margin: 0;
 `;

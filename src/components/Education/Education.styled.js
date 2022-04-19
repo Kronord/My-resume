@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  margin-bottom: 100px;
+export const Wrapper = styled.section`
+  margin-bottom: 50px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -48,4 +48,9 @@ export const University = styled.p`
   font-weight: 700;
   letter-spacing: 3px;
   color: #bb7a3b;
+`;
+export const Text = styled.p`
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
 `;

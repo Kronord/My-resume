@@ -16,16 +16,16 @@ export default function WorkExperience() {
         <Position>category manager assistant</Position>
         <ul>
           <li>
-            <p>purchase of goods for retail stores</p>
+            <Text>purchase of goods for retail stores</Text>
           </li>
           <li>
-            <p>control and change in prices for goods</p>
+            <Text>control and change in prices for goods</Text>
           </li>
           <li>
-            <p>search for new suppliers</p>
+            <Text>search for new suppliers</Text>
           </li>
           <li>
-            <p>document management with suppliers</p>
+            <Text>document management with suppliers</Text>
           </li>
         </ul>
         <Text>
