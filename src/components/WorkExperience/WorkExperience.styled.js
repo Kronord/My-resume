@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
+  width: 800px;
   margin-bottom: 50px;
   margin-left: 50px;
 `;
