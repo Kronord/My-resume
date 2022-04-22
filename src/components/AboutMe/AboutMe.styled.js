@@ -17,17 +17,15 @@ export const ImgBox = styled.div`
   display: flex;
 `;
 export const Name = styled.h1`
-  font-size: 70px;
+  font-size: 60px;
   margin: 40px 0 0;
-  font-weight: 900;
-  letter-spacing: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
   text-transform: uppercase;
   color: #bb7a3b;
 `;
 export const Surname = styled.span`
   display: block;
-  font-weight: 700;
-  font-size: 50px;
   color: #000;
 `;
 export const Spec = styled.p`
@@ -38,11 +36,11 @@ export const Spec = styled.p`
 `;
 export const Text = styled.p`
   line-height: 30px;
-  letter-spacing: 2px;
-  font-size: 18px;
+  
+  font-size: 16px;
   margin: 0;
   &:first-letter {
-    font-size: 30px;
+    font-size: 25px;
     color: #bb7a3b;
   }
 `;

@@ -8,7 +8,7 @@ export const Title = styled.h2`
   font-size: 30px;
   letter-spacing: 5px;
   margin: 0 0 15px;
-  font-weght: bold;
+  font-weght: 700;
   text-transform: uppercase;
 `;
 export const StyleBox = styled.div`

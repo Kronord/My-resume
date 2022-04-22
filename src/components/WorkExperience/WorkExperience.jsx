@@ -12,8 +12,8 @@ export default function WorkExperience() {
           <StyleElement></StyleElement>
           2021 - 2022
         </Date>
-        <Company>trading food company &#34;Prodline&#34;</Company>
         <Position>category manager assistant</Position>
+        <Company>trading food company &#34;Prodline&#34;</Company>
         <ul>
           <li>
             <Text>purchase of goods for retail stores</Text>

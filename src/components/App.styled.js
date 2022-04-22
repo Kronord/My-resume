@@ -2,14 +2,13 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 1300px;
-  padding: 40px 100px;
+  width: 1500px;
   margin: 0 auto;
 `;
 export const AboutBox = styled.div`
   width: 800px;
-  margin-right: 200px;
+  margin-right: 300px;
 `;
 export const ContactsBox = styled.div`
-  width: 350px;
+  width: 400px;
 `;

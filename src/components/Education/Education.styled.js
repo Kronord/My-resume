@@ -10,7 +10,7 @@ export const Title = styled.h2`
   font-size: 30px;
   letter-spacing: 5px;
   margin: 0 0 15px;
-  font-weght: bold;
+  font-weght: 700;
   text-transform: uppercase;
 `;
 export const StyleBox = styled.div`
@@ -26,9 +26,7 @@ export const InnerBox = styled.div`
 `;
 export const Industry = styled.p`
   text-transform: uppercase;
-  font-size: 20px;
   color: #4F4F4F;
-  letter-spacing: 3px;
 `;
 export const StyleElement = styled.span`
   width: 30px;
@@ -44,13 +42,10 @@ export const Date = styled.span`
 `;
 
 export const University = styled.p`
-  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 3px;
   color: #bb7a3b;
 `;
 export const Text = styled.p`
   line-height: 30px;
-  letter-spacing: 2px;
   margin-bottom: 0;
 `;

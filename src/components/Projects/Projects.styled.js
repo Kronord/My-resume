@@ -10,7 +10,7 @@ export const Title = styled.h2`
   font-size: 30px;
   letter-spacing: 5px;
   margin: 0 0 15px;
-  font-weght: bold;
+  font-weght: 700;
   text-transform: uppercase;
 `;
 export const StyleBox = styled.div`
@@ -25,14 +25,13 @@ export const InnerBox = styled.div`
   background-color: #bb7a3b;
 `;
 export const Name = styled.p`
-  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 3px;
+  text-transform: uppercase;
   color: #bb7a3b;
 `;
 export const Link = styled.a`
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 30px;
   color: #999999;
   &:hover {
@@ -44,7 +43,6 @@ export const Link = styled.a`
 `;
 export const Text = styled.p`
   line-height: 30px;
-  letter-spacing: 2px;
 `;
 export const TextStyle = styled.span`
   display: block;

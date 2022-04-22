@@ -22,20 +22,6 @@ export default function Education() {
           </Text>
         </div>
       </Wrapper>
-      <Wrapper>
-        <Title>Additional Education</Title>
-        <StyleBox>
-          <InnerBox></InnerBox>
-        </StyleBox>
-        <div>
-          <University>IT Schooll GoIT(Kyiv)</University>
-          <Date>
-            <StyleElement></StyleElement>
-            2021 - 2022
-          </Date>
-          <Text>Full Stack Developer</Text>
-        </div>
-      </Wrapper>
     </>
   );
 }

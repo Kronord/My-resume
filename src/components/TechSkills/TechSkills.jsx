@@ -1,4 +1,4 @@
-import { Wrapper, Title, StyleBox, InnerBox, Skill } from './TechSkills.styled';
+import { Wrapper, Title, StyleBox, InnerBox } from './TechSkills.styled';
 
 export default function TechSkills() {
   return (
@@ -9,40 +9,40 @@ export default function TechSkills() {
       </StyleBox>
       <ul>
         <li>
-          <Skill>HTML5/CSS3/SASS</Skill>
+          <p>HTML5/CSS3/SASS</p>
         </li>
         <li>
-          <Skill>GIT</Skill>
+          <p>GIT</p>
         </li>
         <li>
-          <Skill>JavaScript</Skill>
+          <p>JavaScript</p>
         </li>
         <li>
-          <Skill>React</Skill>
+          <p>React</p>
         </li>
         <li>
-          <Skill>Redux</Skill>
+          <p>Redux</p>
         </li>
         <li>
-          <Skill>Webpack</Skill>
+          <p>Webpack</p>
         </li>
         <li>
-          <Skill>Parcel</Skill>
+          <p>Parcel</p>
         </li>
         <li>
-          <Skill>Bootstrap</Skill>
+          <p>Bootstrap</p>
         </li>
         <li>
-          <Skill>Npm</Skill>
+          <p>Npm</p>
         </li>
         <li>
-          <Skill>REST API</Skill>
+          <p>REST API</p>
         </li>
         <li>
-          <Skill>Axios</Skill>
+          <p>Axios</p>
         </li>
         <li>
-          <Skill>Styled Components</Skill>
+          <p>Styled Components</p>
         </li>
       </ul>
     </Wrapper>

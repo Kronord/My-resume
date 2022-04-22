@@ -1,4 +1,4 @@
-import { Wrapper, Title, StyleBox, InnerBox, Text } from './Languages.styled';
+import { Wrapper, Title, StyleBox, InnerBox } from './Languages.styled';
 
 export default function Languages() { 
     return (
@@ -9,10 +9,10 @@ export default function Languages() {
         </StyleBox>
         <ul>
           <li>
-            <Text>English - Pre-Intermediate</Text>
+            <p>English - Pre-Intermediate</p>
           </li>
           <li>
-            <Text>Ukraine - Native</Text>
+            <p>Ukraine - Native</p>
           </li>
         </ul>
       </Wrapper>
