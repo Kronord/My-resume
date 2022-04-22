@@ -6,25 +6,27 @@ import TechSkills from './TechSkills/TechSkills';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Languages from './Languages/Languages';
 import Projects from './Projects/Projects';
+import Photo from './Photo/Photo';
 import AdditionalEducation from './Additional Education/AdditionalEducation';
 import { Wrapper, AboutBox, ContactsBox } from './App.styled';
 
 export const App = () => {
   return (
     <Wrapper>
+      <ContactsBox>
+        <Photo />
+        <Contacts />
+        <SoftSkills />
+        <TechSkills />
+        <Languages />
+      </ContactsBox>
       <AboutBox>
         <AboutMe />
         <Projects />
         <WorkExperience />
         <Education />
+        <AdditionalEducation />
       </AboutBox>
-      <ContactsBox>
-        <Contacts />
-        <SoftSkills />
-        <TechSkills />
-        <Languages />
-        <AdditionalEducation/>
-      </ContactsBox>
     </Wrapper>
   );
 };

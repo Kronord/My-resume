@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   margin-bottom: 50px;
+  margin-left: 100px;
   &:last-child {
     margin-bottom: 0;
   }

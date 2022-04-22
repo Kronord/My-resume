@@ -6,9 +6,10 @@ export const Wrapper = styled.div`
   margin: 0 auto;
 `;
 export const AboutBox = styled.div`
-  width: 800px;
-  margin-right: 300px;
+  width: 1000px;
 `;
 export const ContactsBox = styled.div`
-  width: 400px;
+  width: 500px;
+  padding: 30px;
+  background-color: #bb7a3b26;
 `;

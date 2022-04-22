@@ -2,23 +2,14 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   margin-bottom: 50px;
+  margin-top: 60px;
+  padding: 20px 20px 20px 100px;
+  background-color: #bb7a3b26;
 `;
-export const Image = styled.img`
-  width: 600px;
-  height: 550px;
-  margin-left: 70px;
-  object-fit: cover;
-`;
-export const StyleBox = styled.div`
-  width: 50px;
-  background-color: #bb7a3b;
-`;
-export const ImgBox = styled.div`
-  display: flex;
-`;
+
 export const Name = styled.h1`
   font-size: 60px;
-  margin: 40px 0 0;
+  margin: 0;
   font-weight: 700;
   letter-spacing: 5px;
   text-transform: uppercase;

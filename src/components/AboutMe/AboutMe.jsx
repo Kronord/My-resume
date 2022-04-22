@@ -1,9 +1,5 @@
-import image from '../../Images/AnyConv.com__IMG_2786.jpg';
 import {
   Wrapper,
-  ImgBox,
-  StyleBox,
-  Image,
   Name,
   Spec,
   Text,
@@ -13,13 +9,6 @@ import {
 export default function AboutMe() {
   return (
     <Wrapper>
-      <ImgBox>
-        <StyleBox></StyleBox>
-        <Image
-          src={image}
-          alt="man"
-        />
-      </ImgBox>
       <Name>
         Dmitrii <Surname>Shapovalov</Surname>
       </Name>
