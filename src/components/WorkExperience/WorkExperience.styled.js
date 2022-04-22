@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   margin-bottom: 50px;
-  margin-left: 100px;
+  margin-left: 50px;
 `;
 export const Title = styled.h2`
   font-size: 30px;
