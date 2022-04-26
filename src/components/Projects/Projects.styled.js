@@ -52,4 +52,6 @@ export const TextStyle = styled.span`
 `;
 export const List = styled.ul`
   margin: 0;
+  padding: 0;
+  list-style: none;
 `;

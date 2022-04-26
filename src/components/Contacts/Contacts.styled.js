@@ -24,7 +24,6 @@ export const InnerBox = styled.div`
 `;
 export const List = styled.ul`
   list-style: none;
-  padding: 0;
   margin: 0;
 `;
 export const Item = styled.li`
