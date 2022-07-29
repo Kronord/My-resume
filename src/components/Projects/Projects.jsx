@@ -5,9 +5,9 @@ import {
   InnerBox,
   Name,
   Link,
-    Text,
+  Text,
   TextStyle,
-  List
+  List,
 } from './Projects.styled';
 
 export default function Projects() {
@@ -43,11 +43,35 @@ export default function Projects() {
           <Text>
             The following technologies were used in the project:
             <TextStyle>
-              [HTML, CSS, SASS, JavaScript, Axios, REST API, Parcel, Handlebars].
+              [HTML, CSS, SASS, JavaScript, Axios, REST API, Parcel,
+              Handlebars].
             </TextStyle>
-            My part work of project: Gallery films (work with all requests to the
-            backend server, pagination, input element for search movies and
+            My part work of project: Gallery films (work with all requests to
+            the backend server, pagination, input element for search movies and
             sending request on searched movie, render movie cards on Home Page).
+          </Text>
+        </li>
+        <li>
+          <Name>Team project - calorie calculator</Name>
+          <Link href="https://github.com/fragile-chamomile/weightbusters-backend">
+            Repository(Only Back-end part)
+          </Link>
+          <Link href="https://soft-chaja-5962b0.netlify.app/">Live Page</Link>
+          <Link href="https://weightbusters-api.herokuapp.com/api-docs/#/">Swagger</Link>
+          <Text>
+            The following technologies and libraries were used in the project:
+            <TextStyle>
+              [Webpack, React, JavaScript, Redux, Styled-Components, MUI, Formik
+              etc.] (Front-End part).
+            </TextStyle>
+            <TextStyle>
+              [Node.js, Express, Mongoose, MongoDB, Heroku,
+              Swagger(documentation for Front-End), etc.] (Back-End part).
+            </TextStyle>
+            My part work of project: in this project, I was developing the
+            Back-End part of the application, namely, I was processing the
+            Front-End request for a product by the name of this product. I also
+            wrote part of the documentation for Swagger.
           </Text>
         </li>
       </List>
