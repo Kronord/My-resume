@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   width: 1500px;
-  margin: 0 auto;
+  margin: ${props => props.bottom ? '0 auto 50px' : '0 auto'};
 `;
 export const AboutBox = styled.div`
   width: 1000px;

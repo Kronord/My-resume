@@ -10,7 +10,80 @@ import {
   List,
 } from './Projects.styled';
 
-export default function Projects() {
+export function ProjectsUA() {
+  return (
+    <Wrapper>
+      <Title>Проектний досвід</Title>
+      <StyleBox>
+        <InnerBox></InnerBox>
+      </StyleBox>
+      <List>
+        <li>
+          <Name>Командний проект - Ice Cream</Name>
+          <Link href="https://github.com/in-love-with-anime/ice-cream">
+            Репозиторій
+          </Link>
+          <Link href="https://in-love-with-anime.github.io/ice-cream/">
+            Жива Сторінка
+          </Link>
+          <Text>
+            У проекті були використані такі технології:
+            <TextStyle>[HTML, CSS, SASS, Parcel].</TextStyle> Моя частина роботи
+            на проекті: Слайдер та модальне вікно "Franchise".
+          </Text>
+        </li>
+        <li>
+          <Name>Командний проект - Filmoteka</Name>
+          <Link href="https://github.com/TeslaIh/Filmoteka_team_Just_Superheroes">
+            Репозиторій
+          </Link>
+          <Link href="https://teslaih.github.io/Filmoteka_team_Just_Superheroes/#footer">
+            Жива Сторінка
+          </Link>
+          <Text>
+            У проекті були використані такі технології:
+            <TextStyle>
+              [HTML, CSS, SASS, JavaScript, Axios, REST API, Parcel,
+              Handlebars].
+            </TextStyle>
+            Моя частина роботи на проекті: Галерея фільмів (Робота з усіма
+            запитам до бекенд серверу, пагинація, інпут для пошуку фільмів та
+            надсилання запиту, рендер карток фільмів на головній сторінці).
+          </Text>
+        </li>
+        <li>
+          <Name>Командний проект - calorie calculator</Name>
+          <Link href="https://github.com/fragile-chamomile/weightbusters-backend">
+            Репозиторій(Тільки Back-end частина)
+          </Link>
+          <Link href="https://soft-chaja-5962b0.netlify.app/">
+            Жива Сторінка
+          </Link>
+          <Link href="https://weightbusters-api.herokuapp.com/api-docs/#/">
+            Swagger
+          </Link>
+          <Text>
+            У проекті були використані такі технології та бібліотеки:
+            <TextStyle>
+              [Webpack, React, JavaScript, Redux, Styled-Components, MUI, Formik
+              etc.] (Front-End частина).
+            </TextStyle>
+            <TextStyle>
+              [Node.js, Express, Mongoose, MongoDB, Heroku, Swagger(документація
+              запитів для Front-End), etc.] (Back-End частина).
+            </TextStyle>
+            Моя частина роботи на проекті: на цьому проекті, я розробляв
+            Back-End частину додатку, а саме, я обробляв Front-End запити для
+            пошуку продутку за його назвою. Також написав частину докумаентації
+            на Swagger.
+          </Text>
+        </li>
+      </List>
+    </Wrapper>
+  );
+}
+
+export function Projects() {
   return (
     <Wrapper>
       <Title>Project Experience</Title>
@@ -57,7 +130,9 @@ export default function Projects() {
             Repository(Only Back-end part)
           </Link>
           <Link href="https://soft-chaja-5962b0.netlify.app/">Live Page</Link>
-          <Link href="https://weightbusters-api.herokuapp.com/api-docs/#/">Swagger</Link>
+          <Link href="https://weightbusters-api.herokuapp.com/api-docs/#/">
+            Swagger
+          </Link>
           <Text>
             The following technologies and libraries were used in the project:
             <TextStyle>
