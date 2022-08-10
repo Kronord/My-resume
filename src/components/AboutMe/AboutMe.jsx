@@ -7,7 +7,6 @@ export function AboutMe() {
         Dmitrii <Surname>Shapovalov</Surname>
       </Name>
       <Spec>Junior Full Stack developer</Spec>
-      <Spec>Expected salary: 600$</Spec>
       <Text>
         I am a Junior Full Stack developer. In projects i used HTML, CSS, JS,
         React and familiar with technologies such as Next.js, Webpack,
@@ -30,7 +29,6 @@ export function AboutMeUA() {
         Дмитрій <Surname>Шаповалов</Surname>
       </Name>
       <Spec>Junior Full Stack developer</Spec>
-      <Spec>Очікувана зарплатня: 600$</Spec>
       <Text>
         Я Junior Full Stack розробник. У проектах я використовувую HTML, CSS,
         JS, React і знайомий з такими технологіями, як Next.js, Webpack,
