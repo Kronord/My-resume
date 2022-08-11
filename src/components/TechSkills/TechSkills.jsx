@@ -21,6 +21,24 @@ export default function TechSkills() {
           <p>React</p>
         </li>
         <li>
+          <p>Node.js</p>
+        </li>
+        <li>
+          <p>Express</p>
+        </li>
+        <li>
+          <p>MongoDB</p>
+        </li>
+        <li>
+          <p>Figma</p>
+        </li>
+        <li>
+          <p>Mongoose</p>
+        </li>
+        <li>
+          <p>Material UI</p>
+        </li>
+        <li>
           <p>Redux</p>
         </li>
         <li>
