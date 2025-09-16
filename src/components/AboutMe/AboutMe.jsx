@@ -8,15 +8,11 @@ export function AboutMe() {
       </Name>
       <Spec>Junior Full Stack developer</Spec>
       <Text>
-        I am a Junior Full Stack developer. In projects i used HTML, CSS, JS,
-        React and familiar with technologies such as Next.js, Webpack,
-        Typescript (it's part of the Front-End). To write the Back-End part I use
-        Node.js and technologies related to it such as: Express, MongoDB,
-        Mongoose, Docker, etc. I prefer to work with data and operations on it,
-        but I also like to visualize content and translate ideas into a working
-        web application. I am looking for an opportunity to realize myself as a
-        React / Full Stack developer, and help companies automate and improve
-        their business.
+        I am an aspiring cybersecurity specialist with a background in frontend
+        development. I am eager to apply my technical skills and problem-solving
+        mindset to the field of cybersecurity, while actively learning and
+        building practical knowledge in areas such as network security, incident
+        response, and threat analysis.
       </Text>
     </Wrapper>
   );
@@ -30,15 +26,11 @@ export function AboutMeUA() {
       </Name>
       <Spec>Junior Full Stack developer</Spec>
       <Text>
-        Я Junior Full Stack розробник. У проектах я використовувую HTML, CSS,
-        JS, React і знайомий з такими технологіями, як Next.js, Webpack,
-        Typescript (це частина Front-End). Для написання Back-End частини я
-        використовую Node.js та пов’язані з ним технології, такі як: Express,
-        MongoDB, Mongoose, Docker, і т.д. Я віддаю перевагу роботі з даними та
-        операціями з ними, але мені також подобається візуалізувати контент та
-        втілюватии ідеї в робочу веб-програму.Я шукаю можливість реалізувати
-        себе як React / Full Stack розробник і допомагати компаніям
-        автоматизувати та вдосконалювати свій бізнес.
+        Я початківець у сфері кібербезпеки з досвідом фронтенд-розробки. Маю
+        бажання застосувати свої технічні навички та аналітичне мислення у сфері
+        кібербезпеки, активно навчаючись і розвиваючи практичні знання в таких
+        напрямках, як мережева безпека, реагування на інциденти та аналіз
+        загроз.
       </Text>
     </Wrapper>
   );
