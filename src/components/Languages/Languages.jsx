@@ -9,7 +9,7 @@ export function Languages() {
         </StyleBox>
         <ul>
           <li>
-            <p>English - Pre-Intermediate</p>
+            <p>English - B1-B2</p>
           </li>
           <li>
             <p>Ukraine - Native</p>
@@ -28,7 +28,7 @@ export function LanguagesUA() {
         </StyleBox>
         <ul>
           <li>
-            <p>Англійська - Pre-Intermediate</p>
+            <p>Англійська - B1-B2</p>
           </li>
           <li>
             <p>Українська - Native</p>
