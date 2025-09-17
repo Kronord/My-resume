@@ -1,4 +1,4 @@
-import { Wrapper, Name, Spec, Text, Surname } from './AboutMe.styled';
+import { Wrapper, Name, Spec, Surname } from './AboutMe.styled';
 
 export function AboutMe() {
   return (
